@@ -1,0 +1,57 @@
+.header-page {
+  border: solid 2px black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.125);
+}
+.logo-site {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+}
+.logo-site h1 {
+  font-family: cursive;
+  font-size: 23px;
+}
+.logo-site img {
+  width: 70px;
+  height: 70px;
+  border-radius: 45px 0 45px 0;
+  background-color: rgba(0, 0, 0, 0.752);
+}
+.menu-navigation .nav-header{
+    display: flex;
+    justify-content: space-between;   
+    font-family: cursive;
+    font-size: 20px;
+    padding: 5px; 
+}
+
+.menu-navigation ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 30px;
+}
+
+.menu-navigation ul li a {
+  text-decoration: none;
+  font-family: cursive;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.878);
+}
+.menu-navigation ul li a:hover {
+  background-color: rgba(240, 92, 0, 0.601);
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.auth-buttons{
+    display: flex;
+    gap: 15px;
+}
